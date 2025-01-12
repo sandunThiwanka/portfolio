@@ -1,0 +1,133 @@
+
+:root {
+    --bg-color:#162525;
+    --primery-color:#01FEFE;
+    --text-color:#ffffff;
+  }
+  
+  .bg-dark {
+    background-color: var(--bg-color) !important;
+  }
+  
+  /*-----navbar style------*/
+  
+  .nav-link {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: var(--text-color) !important;
+    margin-right: 20px !important;
+    transition: .4s !important;
+  }
+  
+  .nav-link:hover {
+    color: var(--primery-color) !important;
+    text-shadow: 0 0 .5rem var(--primery-color) !important;
+  }
+  
+  /*-----navbar style------*/
+  
+  .hero-txt {
+    color: var(--text-color);
+    
+  }
+  
+  .hero-txt #h1 {
+    font-size: 70px;
+    font-weight: 700;
+    
+  }
+  
+  .hero-txt #h3 {
+    font-weight:500;
+    font-size:30px;
+  }
+  
+  .hero .btn {
+    background-color: var(--primery-color) !important;
+    color: var(--bg-color) !important;
+    font-weight: 700 !important;
+    border: none !important;
+  }
+  
+  .hero .btn:hover{
+    box-shadow: 0 0 .5rem var(--primery-color) !important;
+  }
+  
+  i {
+    color: var(--primery-color);
+    border-radius: 25%;
+    font-size: 35px;
+    margin-right: 10px;
+    transition: .5s;
+  }
+  
+  i:hover {
+    text-shadow: 0 0 .35rem var(--primery-color);
+  }
+  
+  #hero-img {
+    width: 450px;
+    height: 450px;
+    
+  }
+  
+  /*-----About section-----*/
+  
+  .about img {
+    width: 450px;
+    height: 450px;
+  }
+  
+  .about h1 {
+    font-weight: 700;
+    font-size: 70px;
+  }
+  
+  .about p {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  /*-----Projects section style------*/
+  
+  .Projects h1 {
+    color: var(--text-color);
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  .Projects a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .Projects a:hover {
+    text-decoration: underline;
+  }
+  
+  /*-----contact us section style------*/
+  .contact h1 {
+    color: var(--text-color);
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  .card .btn {
+    background-color: var(--primery-color) !important;
+    color: var(--bg-color) !important;
+    font-weight: 700 !important;
+    border: none !important;
+  }
+  
+  .card .btn:hover{
+    box-shadow: 0 0 .5rem var(--primery-color) !important;
+  }
+  
+  .card {
+    color: var(--text-color) !important;
+    background-color: var(--bg-color) !important;
+  }
+  
+  footer {
+    background-color: none;
+  }
